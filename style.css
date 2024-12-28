@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+}
+header{
+    
+    width: 15%;  
+}
+
+#first-nav{
+    background-color: rgb(236, 229, 229);
+    height: 100vh;
+    padding-top: 10px;
+}
+#first-nav>a{
+    display: block;
+    padding: 20px 10px 0 10px;
+    
+}
+
+#second-link{
+    
+    position: fixed;
+    bottom: 60px;
+    left: 5px;
+    color: rgb(92, 88, 88);
+}
+#last-link{
+    
+    position: fixed;
+    bottom: 0;
+    left: 3px;
+    color: rgb(92, 88, 88);
+}
+
+
+#search {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 98%;
+    margin: auto 10px 20px 10px;
+    background-color: rgb(236, 229, 229);
+  }
+
+  .search-container {
+    /* background-color: lightpink; */
+    display: flex;
+    align-items: center;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    padding: 5px 10px;
+    width: 300px;
+  }
+
+  .search-icon {
+    color: rgb(92, 84, 84);
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 18px;
+  }
+
+  .search-input {
+    border: none;
+    outline: none;
+    width: 98%;
+    font-size: 16px;
+    color: black;
+    padding-left: 15px;
+  }
+
+  /* Optional: To mimic WhatsApp appearance more closely */
+  .search-input::placeholder {
+    color: black;
+    
+  }
+
+#hero{
+    
+    margin: 20px 10px;
+}
+#hero>h1{
+
+    font-size: 22px;
+    padding-left: 4px;
+}
+#nav{
+    display: flex;
+    margin: 5px;
+    margin-bottom: 30px;
+    width: 100%;
+    gap: 10px;
+}
+
+#nav>a{
+    padding: 20px;
+    border-radius: 25px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(92, 88, 88);
+    background-color: rgb(236, 229, 229);
+    font-weight: bold;
+}
+#nav>a:hover{
+ background-color: rgb(61, 151, 61);
+}
+img{
+    border-radius: 50%;
+}
+li{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+#message>a{
+    display: block;
+    align-items: center;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    padding-top: 5px;
+}
+
+.chat-link>a{
+    display: inline;
+    margin-left: 5px;
+    text-decoration: none; 
+    color: black;
+    padding-top: 5px;
+}
+
+#time1{
+    padding-left: 0px;
+}
+#time2,#time3{
+    padding-left: 120px;
+}
+#time4{
+    padding-left: 80px;
+}
+#time5{
+    padding-left: 85px;
+}
+
+main{
+    /* margin-left: 10px; */
+    width: 100%;
+}
+main>li{
+      margin-top: 20px;
+      margin-left: 20px;
+}
+
+footer{
+    /* margin-left: 30px; */
+    padding-top: 10px;
+    margin-left: 10px;
+    background-color: rgb(236, 229, 229);
+    background-image: url(./images/what.PNG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+}
+@media only screen and (min-width: 768px){
+    
+    #time1{
+        padding-left: 10px;
+    }
+    #time2,#time3{
+        padding-left: 120px;
+    }
+    #time4{
+        padding-left: 85px;
+    }
+    #time5{
+        padding-left: 95px;
+    }
+    }
+
+@media only screen and (min-width: 1024px){
+    header{
+    
+        width: 10%;  
+    }
+    
+   
+    #first-nav>a{
+        display: block;
+        padding: 10px 10px 0 10px;
+        
+    }
+    .chat-link>a{
+        display: inline;
+        margin-left: 5px;
+        text-decoration: none; 
+        color: black;
+        padding-top: 5px;
+    }
+
+    #time1{
+        padding-left: 190px;
+    }
+    #time2,#time3{
+        padding-left: 387px
+    }
+    #time4{
+        padding-left: 350px;
+    }
+    #time5{
+        padding-left: 358px;
+    }
+
+
+#nav{
+    margin: 5px 0px 20px 0;
+    gap: 0px;
+}
+}
+

@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#status{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+#status>nav{
+    padding-right: 20px;
+
+}
+
+#hero{
+    
+    margin: 20px 10px 20px 5px;
+}
+
+hr{
+    margin-top: 20px;
+}
+span{
+    margin: 20px 10px ;
+}
+
+h1{
+    font-size: 22px;
+    padding-left: 4px;
+}
